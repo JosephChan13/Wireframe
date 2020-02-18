@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+   <meta charset="utf-8">
+   <title>Wizards of Paws and the Search for Fur-Ever Home</title>
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <link href="https://fonts.google.com/specimen/Gochi+Hand" rel="stylesheet" type="text/css">
+<style>
+  .personal_information {
+    font-family: Gochi+Hand
+  }
+
+  .all {
+    margin: 50px;
+  }
+
+  .Picture{
+    height: 56px;
+    width: 82px
+  }
+</style>
+
+</head>
+<body style="background-color: #f6c1ff;" class="all">
+
+<nav id="navigation-buttons">
+  <button type="button" class="btn btn-info">Home</button>
+  <button type="button" class="btn btn-info">Options</button>
+  <button type="button" class="btn btn-info">Help</button>
+  <button type="button" class="btn btn-info">FAQ's</button>
+  <button type="button" class="btn btn-info">Contact Us</button>
+  <button type="button" class="btn btn-info">About Us</button>
+  <input type="text" placeholder="Search">
+  <button type="button" class="btn btn-secondary">Search</button>
+</nav>
+
+<section id="personal-information">
+<h1>Edit your profile</h1>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery-3.4.1.slim.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+  <div class="personal_information">
+    <article class="Avatar">
+      <img src="Avatar.png" alt="Upload picture" class="Picture">
+      <button type="button" class="btn btn-info">Upload Picture</button>
+      <br/>
+    <article class="Name">
+      <h3>Name:
+              <input type="text" placeholder="Surname" required>
+              <input type="text" placeholder="Given Name" required>
+              <input type="text" placeholder="Middle Name" required>
+              <input type="text" placeholder="Suffix"></h3>
+    </article>
+    <br/>
+    <article class="Birthday">
+      <h3>Birthday:
+                  <input type="text" placeholder="Month" required>
+                  <input type="text" placeholder="Date" required>
+                  <input type="text" placeholder="Year" required></h3>
+    </article>
+    <br/>
+    <article class="Address">
+      <h3>Address:
+                  <input type="text" placeholder="House Number" required>
+                  <input type="text" placeholder="Street" required>
+                  <input type="text" placeholder="Barangay" required>
+                  <input type="text" placeholder="Municipality" required>
+                  <input type="text" placeholder="Province" required>
+                  <input type="text" placeholder="Zip Number" required></h3>
+    </article>
+    <br/>
+    <article class="Email-Address">
+      <h3>Email Address:
+        <input type="text" placeholder="example@gmail.com"></h3>
+    </article>
+    <article class="Mobile-Number">
+      <h3>Mobile Number:
+        <input type="text" placeholder="(+63) 975 573 0642"></h3>
+    </article>
+    <article class="Description">
+      <h3>About Yourself:
+        <input type="text" placeholder="Description about yourself"></h3>
+  </div>
+  <div id="Certification">
+    <p>I hereby certify that the above information are true to my knowledge and belief.</p>
+    <input type="text" placeholder="Signature over printed name" required><br/>
+      <label for="Terms-and-Conditions">
+        <input id="Terms_and_Conditions" value="Agree" type="checkbox" name="AgreetoTermsandConditions">I agree to the <a href="#">Terms and Conditions</a>
+      </label>
+  </div>
+<button class="btn btn-success" type="submit">Submit</button>
+</body>
+</html>
